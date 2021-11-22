@@ -1,3 +1,3 @@
-const HOST = "http://localhost:5000/";
+const HOST = "https://mpmproject-backend.herokuapp.com/";
 
 export { HOST };
