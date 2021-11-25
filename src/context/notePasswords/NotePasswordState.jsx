@@ -20,7 +20,7 @@ const NotePasswordState = (props) => {
   };
   // add note
   const addPass = async (title, password) => {
-    const response = await fetch(`${HOST}/api/passwords/addpassword/`, {
+    const response = await fetch(`${HOST}api/passwords/addpassword/`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -35,7 +35,7 @@ const NotePasswordState = (props) => {
   // delete note
   const deletePass = async (id) => {
     //api call
-    const response = await fetch(`${HOST}/api/passwords/deletepass/${id}`, {
+    const response = await fetch(`${HOST}api/passwords/deletepass/${id}`, {
       method: "DELETE",
       headers: {
         "Content-Type": "application/json",
@@ -56,7 +56,7 @@ const NotePasswordState = (props) => {
     // console.log(id.password, id.title);
     const noteId = id;
     // console.log(noteId.id);
-    const response = await fetch(`${HOST}/api/passwords/update/${noteId.id}`, {
+    const response = await fetch(`${HOST}api/passwords/update/${noteId.id}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
