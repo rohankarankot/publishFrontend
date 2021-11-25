@@ -12,10 +12,7 @@ const LandingPage = () => {
       <div className="row py-4">
         <div className="col-md-7 col-12 py-4 ">
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus,
-            corporis laboriosam culpa dignissimos non voluptate omnis
-            necessitatibus itaque accusantium architecto libero eaque natus,
-            blanditiis molestias?
+            Master Password manager is a one stop solution for all your passwords. here you can store all your passwords securely on cloud and access them any where any time.
           </p>
           {localStorage.getItem("token") ? (
             <button
