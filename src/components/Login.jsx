@@ -68,10 +68,10 @@ const Login = () => {
                       className="pointer py-4 text-decoration-underline"
                       onClick={(e) => {
                         e.preventDefault();
-                        history.goBack();
+                        history.push("/register");
                       }}
                     >
-                      Go Back
+                      Create a new Accout!!!
                     </p>
                   </div>
                 </form>
